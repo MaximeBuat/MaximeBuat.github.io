@@ -100,6 +100,7 @@ body {
 
 .sub-info {
     text-align: center;
+    padding: 15px;
 }
 
 ::-webkit-scrollbar {
@@ -345,8 +346,8 @@ footer {
     @include transition();
 
     &:hover {
-        color: $base-color;
-        background: #ffffff;
+        color: #ffffff;
+        background: $base-color;
         text-decoration: none;
     }
 }
@@ -924,6 +925,15 @@ footer {
 }
 
 // Medium Devices
+@media only screen and (max-width: 750px) {
+
+    .info-axa {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 @media only screen and (max-width : 992px) {
 
     #lead {
