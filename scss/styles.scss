@@ -792,6 +792,11 @@ footer {
         color: #fff;
         font-weight: 500;
     }
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+    }
 }
 
 #contact-form {
